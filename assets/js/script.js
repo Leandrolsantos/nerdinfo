@@ -1,0 +1,1 @@
+window.prompt('Bem vindo ao NerdInfo! Qual é seu nome?');
