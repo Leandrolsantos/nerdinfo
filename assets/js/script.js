@@ -1,1 +1,2 @@
-window.prompt('Bem vindo ao NerdInfo! Qual é seu nome?');
+window.alert('Bem vindo ao NerdInfo!')
+window.prompt('Qual é seu nome?');
