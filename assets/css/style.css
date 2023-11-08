@@ -31,14 +31,23 @@ header {
 
 .container {
     display: grid;
-    grid-template-columns: 4fr 10%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
+}
+
+.card-1 { 
+       
+}
+
+.back-1 {
+    
 }
 
 /* End of Cards Container  */
