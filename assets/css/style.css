@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(235, 140, 52)
 }
 
 /* Header */
@@ -31,22 +31,47 @@ header {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 10px;
+    grid-template-columns: 1fr ;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
 }
 
 .card-1 { 
-    margin: 10px;
-    transition: 1s ease-in-out;      
+    transition: 0.5s ease-in-out;      
 }
 
 .card-1:hover {
     transform: scale(1.03);
 }
 
+.card-2 { 
+    transition: 0.5s ease-in-out;      
+}
+
+.card-2:hover {
+    transform: scale(1.03);
+}
+
+.card-3 { 
+    transition: 0.5s ease-in-out;      
+}
+
+.card-3:hover {
+    transform: scale(1.03);
+}
+
+.card-4 { 
+    transition: 0.5s ease-in-out;      
+}
+
+.card-4:hover {
+    transform: scale(1.03);
+}
 
 /* End of Cards Container  */
