@@ -36,18 +36,17 @@ header {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-}
-
-.cards {
-    
+    margin-top: 10px;
 }
 
 .card-1 { 
-       
+    margin: 10px;
+    transition: 1s ease-in-out;      
 }
 
-.back-1 {
-    
+.card-1:hover {
+    transform: scale(1.03);
 }
+
 
 /* End of Cards Container  */
