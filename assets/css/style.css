@@ -43,7 +43,8 @@ header {
 }
 
 .card-1 { 
-    transition: 0.5s ease-in-out;      
+    transition: 0.5s ease-in-out;
+    box-shadow: 3px 2px 4px black;      
 }
 
 .card-1:hover {
@@ -51,7 +52,8 @@ header {
 }
 
 .card-2 { 
-    transition: 0.5s ease-in-out;      
+    transition: 0.5s ease-in-out;
+    box-shadow: 3px 2px 4px black;   
 }
 
 .card-2:hover {
@@ -59,7 +61,8 @@ header {
 }
 
 .card-3 { 
-    transition: 0.5s ease-in-out;      
+    transition: 0.5s ease-in-out;
+    box-shadow: 3px 2px 4px black;      
 }
 
 .card-3:hover {
@@ -67,11 +70,16 @@ header {
 }
 
 .card-4 { 
-    transition: 0.5s ease-in-out;      
+    transition: 0.5s ease-in-out;
+    box-shadow: 3px 2px 4px black;      
 }
 
 .card-4:hover {
     transform: scale(1.03);
+}
+
+.card-4:active{
+    padding: 100px;
 }
 
 /* End of Cards Container  */
