@@ -36,37 +36,11 @@ header {
 
 .cards {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:flex-start;
+    justify-content:flex-start;
     gap: 50px;
     margin-top: 30px;
-}
-
-.card-1 { 
-    transition: 0.5s ease-in-out;
-    box-shadow: 3px 2px 4px black;      
-}
-
-.card-1:hover {
-    transform: scale(1.03);
-}
-
-.card-2 { 
-    transition: 0.5s ease-in-out;
-    box-shadow: 3px 2px 4px black;   
-}
-
-.card-2:hover {
-    transform: scale(1.03);
-}
-
-.card-3 { 
-    transition: 0.5s ease-in-out;
-    box-shadow: 3px 2px 4px black;      
-}
-
-.card-3:hover {
-    transform: scale(1.03);
+    margin-left: 100px;
 }
 
 .card-4 { 
@@ -76,6 +50,7 @@ header {
 
 .card-4:hover {
     transform: scale(1.03);
+    right: 1046px;
 }
 
 .card-4:visited {
