@@ -53,49 +53,7 @@ header {
     right: 1046px;
 }
 
-.card-1:visited {
-    padding: 100px;
-}
-
-.card-2 { 
-    transition: 0.5s ease-in-out;
-    box-shadow: 3px 2px 4px black;      
-}
-
-.card-2:hover {
-    transform: scale(1.03);
-    right: 1046px;
-}
-
-.card-2:visited {
-    padding: 100px;
-}
-
-.card-3 { 
-    transition: 0.5s ease-in-out;
-    box-shadow: 3px 2px 4px black;      
-}
-
-.card-3:hover {
-    transform: scale(1.03);
-    right: 1046px;
-}
-
-.card-3:visited {
-    padding: 100px;
-}
-
-.card-4 { 
-    transition: 0.5s ease-in-out;
-    box-shadow: 3px 2px 4px black;      
-}
-
-.card-4:hover {
-    transform: scale(1.03);
-    right: 1046px;
-}
-
-.card-4:visited {
+.card-1:active {
     padding: 100px;
 }
 

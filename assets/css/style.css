@@ -9,6 +9,16 @@ body {
     background-color: rgb(235, 140, 52)
 }
 
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    font-size: 2rem;
+}
+
 /* Header */
 
 header {
@@ -21,7 +31,7 @@ header {
     justify-content: center;
     width: 100%;
     gap: 370px;
-    margin-top: 20px;
+    margin-top: 100px;
     padding: 15px;
 }
 
