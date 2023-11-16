@@ -26,6 +26,10 @@ body {
     -webkit-text-stroke-color: black;
 }
 
+.titulo, h1 {
+    padding: 15px;    
+}
+
 /* Header */
 
 header {
