@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo {
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,12 +26,18 @@ body {
     -webkit-text-stroke-color: black;
 }
 
-.titulo, h1 {
-    padding: 15px;    
+.card__title {
+    text-align:left;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .text {
-
+    background-color: rgb(255, 223, 143);
+    padding: 15px;
+    text-align: justify;
+    margin: 20px;
+    box-shadow: inset 2px 2px 15px black;
 }
 
 /* Header */
@@ -48,6 +54,7 @@ header {
     gap: 370px;
     margin-top: 80px;
     padding: 15px;
+    box-shadow: inset 2px 2px 13px black;
 }
 
 /* End of Header */
