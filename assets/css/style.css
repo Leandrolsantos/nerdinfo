@@ -19,11 +19,10 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
-
     font-family: 'Sansita', sans-serif;
     font-size: 3rem;
     color: white;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.692);
+    text-shadow: 4px 5px 7px rgba(0, 0, 0, 0.781);
     -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: black;
 }
@@ -48,14 +47,16 @@ header {
     margin: 0 auto;
     padding: 10px;
     box-shadow: inset 2px 2px 13px rgba(0, 0, 0, 0.795), 5px 5px 15px rgba(0, 0, 0, 0.753);
-    background: radial-gradient(rgb(255, 0, 0), rgb(128, 0, 128), rgba(0, 0, 0, 0.781));
+    background: radial-gradient(rgb(255, 0, 0), rgb(133, 1, 1), rgb(255, 0, 0));
+    border-top: 4px groove white;
+    border-bottom: 4px groove white;
     font-family: 'Sansita', sans-serif;
     text-decoration: none;
     font-weight: 500;
 }
 
 .nav-bar, p {
-    font-size: 1.2rem;
+    font-size: 1.27em;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.568);
 }
 
@@ -133,5 +134,18 @@ a:hover {
 .card-4:visited {
     padding: 100px;
 }
-
 /* End of Cards Container  */
+
+/* Footer */
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    height: 15vh;
+    border-top: 3px groove black;
+    background: linear-gradient(purple, darkblue);
+    color: white;
+    font-size: 1.2rem;
+}
