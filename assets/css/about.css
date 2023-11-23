@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(rgb(90, 81, 218), rgb(179, 82, 18));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* About Text */
+.about__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px;
+    background-color: rgba(241, 241, 241);
+    padding: 30px;
+    box-shadow: inset 6px 6px 13px black;
+    border: 5px groove white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: gold;
+    text-align: justify;
+    transition: 0.6s ease-in-out;
+}
+
+.about__text:hover {
+    color: white;
+    font-weight: 700;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    transform: scale(1.1);
+    background: url(/assets/img/about.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* End of About Text */
+
+.back__button, button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    color: black;
+    text-shadow: 1px 1px 3px black;
+}
+button {
+    box-shadow: 5px 5px 10px black;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+.back__button:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    height: 15vh;
+    border-top: 3px groove black;
+    background: linear-gradient(rgba(128, 0, 128, 0.425), rgba(0, 0, 139, 0.603));
+    box-shadow: 8px 8px 12px black;
+    color: white;
+    font-size: 1.5rem;
+}
+/* End of Footer */
