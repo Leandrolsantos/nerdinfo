@@ -29,6 +29,7 @@ body {
         text-shadow: 3px 3px 6px black;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
+        cursor: pointer;
     }
 
     .soft {
