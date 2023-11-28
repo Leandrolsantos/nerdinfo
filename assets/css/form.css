@@ -7,47 +7,31 @@
 }
 
 body {
-    width: 100%;
     background: linear-gradient(rgb(90, 81, 218), rgb(179, 82, 18));
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Form */
 
-.news__form {
+.news__form, input {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 40px;
-    color: white;
+    padding: 10px;
 }
 
-.checkbox input {
+.submit_button input {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    transition: 0.5s ease-in-out;
-    font-size: 1.5rem;
-    transition: 0.5s ease-in-out;
+    padding: 20px;
+    width: 200px;   
 }
 
-.checkbox:hover {
+.submit_button:hover {
     transform: scale(1.1);
-}
-
-input {
-    margin: 0 auto;
-    padding: 6px;
-    border: 2px groove rgba(195, 0, 255);
-    box-shadow: 3px 3px 6px black;
-    cursor: pointer;
-    color: red;
-    box-shadow: 2px 2px 4px black;
 }
 
 /* End Form */
@@ -66,6 +50,7 @@ input {
     color: black;
     text-shadow: 1px 1px 3px black;
 }
+
 button {
     box-shadow: 5px 5px 10px black;
     transition: 0.5s ease-in-out;
@@ -92,7 +77,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 245px;
+    margin-top: 302px;
     height: 15vh;
     border-top: 3px groove black;
     background: linear-gradient(rgba(128, 0, 128, 0.425), rgba(0, 0, 139, 0.603));
