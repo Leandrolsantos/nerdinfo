@@ -34,7 +34,7 @@ body {
 .card__title {
     text-align: left;
     padding: 2px;
-    margin: 15px;
+    margin: 2px;
     font-size: 1.5rem;
     color: white;
     -webkit-text-stroke-width: 2px;
@@ -44,7 +44,7 @@ body {
 .text p {
     margin: 0 auto;
     background-color: #00000096;
-    padding: 25px;
+    padding: 8px;
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -52,8 +52,8 @@ body {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.6px;
     width: 100%;
-    box-shadow: inset 2px 2px 15px black;
-    border: 5px groove rgb(255, 255, 255);
+    box-shadow: 4px 4px 15px black;
+    border: 2px groove rgb(255, 255, 255);
     border-radius: 12px;
     position: fixed;
 }
