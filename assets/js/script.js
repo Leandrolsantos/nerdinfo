@@ -11,3 +11,7 @@ function typeWriter(elemento) {
 
   const texto = document.querySelector('p');
   typeWriter(texto);
+
+  // Projects
+
+  
