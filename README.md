@@ -4,9 +4,9 @@
 
 ![](./assets/img/fg.gif)
 
-Deploy: (EM BREVE)
+Deploy: https://nerdinfo-leandrolsantos.vercel.app/
 
-Youtube: (EM BREVE)
+Youtube: https://youtu.be/IoJj1wJ3m9w
 
 ## About
 
@@ -22,7 +22,7 @@ Use new CSS tools to learn more.
 
 ### Conclusion
 
-It was a fun project, i´ll continue to update while i´m practicing, and create better versions
+It was a fun project, i´ll continue to update while i´m practicing, and create better versions.
 
 ### Tools
 
