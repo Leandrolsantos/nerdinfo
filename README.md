@@ -1,10 +1,8 @@
 # Nerdinfo
 
-![](./)
+![](./assets/img/f1.png)
 
-![](./)
-
-![](./)
+![](./assets/img/fg.gif)
 
 Deploy: (EM BREVE)
 
@@ -12,19 +10,19 @@ Youtube: (EM BREVE)
 
 ## About
 
-(EM BREVE)
+It´s a website about comics, games and books. All related to the nerdverse.
 
 ### Objectives
 
-(EM BREVE)
+Practice HTML, CSS and some JS.
 
 ### Challenges
 
-(EM BREVE)
+Use new CSS tools to learn more.
 
 ### Conclusion
 
-(EM BREVE)
+It was a fun project, i´ll continue to update while i´m practicing, and create better versions
 
 ### Tools
 
